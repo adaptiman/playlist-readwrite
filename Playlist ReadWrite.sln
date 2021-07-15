@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Playlist ReadWrite", "Playlist ReadWrite.vbproj", "{FB2910D6-E323-460A-85C6-F4E988FA552C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB2910D6-E323-460A-85C6-F4E988FA552C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2910D6-E323-460A-85C6-F4E988FA552C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2910D6-E323-460A-85C6-F4E988FA552C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2910D6-E323-460A-85C6-F4E988FA552C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C41A120-1988-453C-8A0D-ED1C4904A4C9}
+	EndGlobalSection
+EndGlobal
