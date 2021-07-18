@@ -16,6 +16,7 @@ Public Class Form1
 
         'writes the content to the textbox
         tbOutput.Text = content.ToText(playlist)
+        btnSelectFile.Focus()
 
         'writes the content to Output
         Console.WriteLine(content.ToText(playlist))
@@ -35,9 +36,9 @@ Public Class Form1
         'loads the paths from playlist
         'paths = playlist.GetTracksPaths()
 
-        Load_Data()
-
         stream.Close()
+        Me.Show()
+        Load_Data()
 
     End Sub
 
@@ -76,10 +77,8 @@ Public Class Form1
     Private Sub btnAddCue_Click(sender As Object, e As EventArgs) Handles btnAddCue.Click
 
         Dim entry As WplPlaylistEntry
+
         entry = New WplPlaylistEntry With {
-            .AlbumArtist = "Unknown Artist",
-            .TrackArtist = "Unknown Artist",
-            .AlbumTitle = "Unknown Album",
             .Path = tbFilePath.Text,
             .TrackTitle = tbTitle.Text
         }
